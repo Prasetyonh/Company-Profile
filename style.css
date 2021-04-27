@@ -1,0 +1,163 @@
+*{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+#darkmode {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar img{
+    margin-top: 8px;
+}
+
+.hero-banner{
+    padding: 100px 60px;
+    padding-left: 200px;
+}
+.hero-banner p{
+    font-size: 70px;
+    margin-top: 50px;
+}
+.hero-banner img{
+    width: 450px;
+}
+.about{
+    padding: 100px 60px;
+}
+.about img{
+    height: 450px;
+    padding-left: 200px;
+}
+.layanan{
+    padding: 100px 200px;
+}
+.layanan p{
+    font-size: 15px;
+    color: gray;
+}
+.layanan img{
+    width: 70px;
+}
+
+.layanan h2{
+    padding-bottom: 50px;
+}
+.menu{
+    padding: 100px 60px;
+}
+.card{
+    width: 18rem;
+    background-color: whitesmoke;
+}
+.card p{
+    color: gray;
+}
+.aplikasi{
+    padding: 100px 60px;
+    padding-bottom: 200px;
+}
+.col img{
+    height: 450px;
+    padding-left: 200px;
+}
+.col-sm-12 img{
+    width: 100px;
+}
+.kontak{
+    padding: 200px 60px 200px 300px;
+    margin-bottom: 70px;
+}
+
+
+.float img{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:20px;
+	right:20px;
+}
+
+footer{
+    background-color:whitesmoke ;
+    color: white;
+    width: 100%;
+    height: 50px;
+}
+
+footer p {
+    text-align: center;
+    padding-top:15px;
+    color: black;
+}
+
+@media (max-width:700px){
+    .hero-banner{
+        padding:70px 0px 100px 15px;
+        margin: 0;
+    }
+    .hero-banner p{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .hero-banner img{
+        width: 200px;
+        padding-left: 30px;
+    }
+    
+    .about{
+        padding: 0;
+        margin: 0;
+        
+    }
+    .about img{
+        height: 250px;
+        padding:90px 50px 20px 60px;
+    }
+
+    .card{
+        width: 12rem;
+        background-color: whitesmoke;
+    }
+    .menu{
+        margin: 0;
+        padding: 0;
+    }
+
+    .aplikasi{
+        padding:50px 20px 20px 50px;
+        margin: 0;
+    }
+    .col img{
+        height: 250px;
+        padding:70px 100px 0px 80px;
+        margin: 0;
+    }
+    .col-sm-12 img{
+        width: 50;
+        padding: 0 15px;
+        margin: 0;
+    }
+    .kontak{
+        padding: 200px 50px 150px 50px;
+    }
+    .col-sm-12 button{
+        margin-top: -100px;
+    }
+    
+    footer{
+        background-color:whitesmoke ;
+        color: white;
+        width: 100%;
+        height: 60px;
+    }
+
+}
